@@ -69,3 +69,5 @@ gem "devise"
 # Automatic file detection
 gem "auto_html"
 
+#Zeroclipboard
+gem 'zeroclipboard-rails', '~> 0.1.1'
