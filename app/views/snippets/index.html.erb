@@ -1,6 +1,21 @@
 <p id="notice"><%= notice %></p>
 
 <h1>Listing Snippets</h1>
+<% @snippets.each do |snippet| %>
+<div class="panel panel-default">
+  <button class='btn btn-default' data-clipboard-target='intro_text1' data-clipboard-text='Default clipboard text from attribute' id='d_clip_button_intro1' title='Click me to copy to clipboard.'>
+  <b>Kopieren</b>
+</button>
+  <p id='intro_text1' class="panel-body">
+    <%= snippet.content %>
+</p>
+</div>
+   <script>
+  $(document).ready(function() {
+    var clip = new ZeroClipboard($("#d_clip_button_intro1"))
+   });
+</script>
+  <% end %>
 
 <table>
   <thead>
