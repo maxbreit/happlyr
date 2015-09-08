@@ -15,4 +15,5 @@
 //= require twitter/bootstrap
 //= require turbolinks
 //= require zeroclipboard
+//= require bootstrap-filestyle
 //= require_tree .

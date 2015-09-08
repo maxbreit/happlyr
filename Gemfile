@@ -71,3 +71,6 @@ gem "auto_html"
 
 #Zeroclipboard
 gem 'zeroclipboard-rails', '~> 0.1.1'
+
+#Bootstrap filesty for nice Choose file buttons
+gem 'bootstrap-filestyle-rails'
