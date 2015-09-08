@@ -10,6 +10,41 @@
 
   <%= render "layouts/header" %>
 
+<div class="jumbotron">
+  <div class="row">
+    <div class="col-md-5">
+      <p>
+      ...
+      <p>
+    </div>
+    <div class="col-md-7">
+      <div class="container">
+        <h2>Perfektes Anschreiben in 3 Schritten</h2>
+        <h3>1. Bauen</h3>
+        <p>Baue dein Anschreiben schneller mit Vorlagen-Blocks (siehe unten).</p>
+        <h3>2. Anpassen</h3>
+        <p>Passe die Vorlagen an. Mache dein Anschreiben einzigartig.</p>
+        <h3>3. Sicher gehen</h3>
+        <p>Vermeide Rechtschreibfehler. Einfach Anschreiben an uns senden und korrigiert zurück bekommen. Innerhalb von 24 Stunden.</p>
+
+        <form>
+          <div class="form-group">
+            <label for="exampleInputFile"></label>
+            <input type="file" id="exampleInputFile">
+          </div>
+          <div class="form-group">
+            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Deine Email Adresse   (hierhin schicken wir dein korrigiertes Anschreiben)">
+          </div>
+          <button type="submit" class="btn btn-primary">Anschreiben senden</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
   <div class="container">
     <%= yield %>
   </div>
