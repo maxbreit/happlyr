@@ -1,6 +1,22 @@
 <div class="jumbotron">
-<h1>Happlyr</h1>
-<p>Erstelle das beste Anschreiben für deine Bewerbung</p>
+  <div class="container">
+    <h1>Happlyr</h1>
+    <p>Baue dein Bewerbungsanschreiben mit unseren Vorlagenblocks
+    <br>Lade dein Anschreiben als Word-Datei hoch.
+    <br>Wir überprüfen gerne, ob sich Rechtschreibfehler eingeschlichen haben</p>
+
+    <form>
+      <div class="form-group">
+        <label for="exampleInputFile"></label>
+        <input type="file" id="exampleInputFile">
+      </div>
+      <div class="form-group">
+        <label for="exampleInputEmail1">Email address</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+  </div>
 </div>
 
 <!-- -----------------------------------------------------Einleitung----------------------------------------------------- -->
@@ -8,12 +24,13 @@
 <div>
   <h1>Einleitung</h1>
 
-<div class="panel panel-default">
+
+  <div class="panel panel-default">
   <button class='btn btn-default' data-clipboard-target='intro_text1' data-clipboard-text='Default clipboard text from attribute' id='d_clip_button_intro1' title='Click me to copy to clipboard.'>
   <b>Kopieren</b>
 </button>
   <p id='intro_text1' class="panel-body">
-  Sehr geehrter Herr Mustermann, <br><br> mit Begeisterung habe ich auf Ihrer Firmenwebsite gelesen, dass Sie auch ein Trainee-Programm anbieten. Da ich meine berufliche Zukunft in der Biotechnologie-Branche sehe und Musterfirma gleichermaßen Wert auf gute Beratung und auf guten Vertrieb legt, möchte ich künftig Ihre Sales-Abteilung verstärken.
+  Sehr geehrter <span class="exchange">{Herr Mustermann}</span>, <br><br> vielen Dank für das informative Telefonat <span class="exchange">{diesen Mittwoch}</span>. In meiner <span class="exchange">{derzeitigen Position als Produktmanager}</span> bei <span class="exchange">{Musterfirma steuere ich die Weiterentwicklung mobiler Internetdienste und bin technischer Ansprechpartner für unsere internationalen Partner}</span>. Die <span class="exchange">{Stelle als Produktmanager Mobile Services}</span> knüpft optimal an meine bisherigen Erfahrungen an.
 </p>
 </div>
    <script>
@@ -28,7 +45,7 @@
   <b>Kopieren</b>
 </button>
   <p id='intro_text2' class="panel-body">
-Sehr geehrter Herr Mustermann, <br><br> als angehender Softwareentwickler habe ich schon während meines Studiums Erfahrungen bei der Integration von Softwaremodulen in ein ablauffähiges Produkt gesammelt. Ich absolvierte mehrere Praktika in IT-Abteilungen, unter anderem bei der Mustergroup.
+Sehr geehrter <span class="exchange">{Herr Mustermann}</span>, <br><br> als angehender <span class="exchange">{Softwareentwickler}</span> habe ich schon während meines Studiums Erfahrungen <span class="exchange">{bei der Integration von Softwaremodulen in ein ablauffähiges Produkt}</span> gesammelt. Ich absolvierte <span class="exchange">{mehrere Praktika in IT-Abteilungen}</span>, unter anderem bei der <span class="exchange">{Mustergroup}</span>.
 </p>
 </div>
    <script>
@@ -43,7 +60,7 @@ Sehr geehrter Herr Mustermann, <br><br> als angehender Softwareentwickler habe i
   <b>Kopieren</b>
 </button>
   <p id='intro_text3' class="panel-body">
-  Sehr geehrter Herr Mustermann, <br><br> schon während meines Studiums des Wirtschaftsingenieurwesens konnte ich praktische Erfahrung im Bereich der Automatisierungstechnik bei der Brogster AG sammeln. Als Werkstudent unterstützte ich das Team bei der Gestaltung und Optimierung von Produktionsabläufen.
+  Sehr geehrter <span class="exchange">{Herr Mustermann}</span>, <br><br> schon während meines Studiums <span class="exchange">{des Wirtschaftsingenieurwesens}</span> konnte ich praktische Erfahrung im Bereich <span class="exchange">{der Automatisierungstechnik}</span> bei der <span class="exchange">{Muster AG}</span> sammeln. Als <span class="exchange">{Werkstudent}</span> unterstützte ich das Team bei <span class="exchange">{der Gestaltung und Optimierung von Produktionsabläufen}</span>.
 </p>
 </div>
    <script>
@@ -58,7 +75,7 @@ Sehr geehrter Herr Mustermann, <br><br> als angehender Softwareentwickler habe i
   <b>Kopieren</b>
 </button>
   <p id='intro_text4' class="panel-body">
-  Sehr geehrter Herr Mustermann, <br><br> vielen Dank für das informative Telefonat am Mittwoch. Besonders interessant war für mich, dass sich der Aufgabenschwerpunkt des Praktikums mit meinem derzeitigen Seminar "Lean Management" deckt.
+  Sehr geehrter <span class="exchange">{Herr Mustermann}</span>, <br><br> vielen Dank für das informative Telefonat <span class="exchange">{am Mittwoch}</span>. Besonders interessant war für mich, dass sich der Aufgabenschwerpunkt <span class="exchange">{des Praktikums}</span> mit meinem <span class="exchange">{derzeitigen Seminar "Lean Management"}</span> deckt.
 </p>
 </div>
    <script>
@@ -73,7 +90,7 @@ Sehr geehrter Herr Mustermann, <br><br> als angehender Softwareentwickler habe i
   <b>Kopieren</b>
 </button>
   <p id='intro_text5' class="panel-body">
-  Sehr geehrter Herr Mustermann, <br><br> ich habe mit großem Interesse Ihre Anzeige gelesen und bewerbe mich für die Position als Organisationsentwicklerin.
+  Sehr geehrter <span class="exchange">{Herr Mustermann}</span>, <br><br> ich habe mit großem Interesse <span class="exchange">{Ihre Anzeige gelesen}</span> und bewerbe mich für die <span class="exchange">{Position als Organisationsentwicklerin}</span>.
 </p>
 </div>
    <script>
@@ -88,7 +105,7 @@ Sehr geehrter Herr Mustermann, <br><br> als angehender Softwareentwickler habe i
   <b>Kopieren</b>
 </button>
   <p id='intro_text6' class="panel-body">
-  Sehr geehrter Herr Mustermann, <br><br> als angehender Wirtschaftsingenieur habe ich schon während meines Studiums mehrjährige Erfahrung im technischen Einkauf bei der Muster AG gesammelt. Als Werkstudent betreute ich selbständig 15 Lieferanten.
+  Sehr geehrter <span class="exchange">{Herr Mustermann}</span>, <br><br> als angehender <span class="exchange">{Wirtschaftsingenieur}</span> habe ich schon während meines Studiums <span class="exchange">{mehrjährige}</span> Erfahrung <span class="exchange">{im technischen Einkauf}</span> bei <span class="exchange">{der Muster AG}</span> gesammelt. Als <span class="exchange">{Werkstudent betreute ich selbständig 15 Lieferanten}</span>.
 </p>
 </div>
    <script>
@@ -103,7 +120,7 @@ Sehr geehrter Herr Mustermann, <br><br> als angehender Softwareentwickler habe i
   <b>Kopieren</b>
 </button>
   <p id='intro_text7' class="panel-body">
-  Sehr geehrter Herr Mustermann, <br><br> vielen Dank für das informative Telefonat diesen Mittwoch. In meiner derzeitigen Position als Produktmanager bei Musterfirma steuere ich die Weiterentwicklung mobiler Internetdienste und bin technischer Ansprechpartner für unsere internationalen Partner. Die Stelle als Produktmanager Mobile Services knüpft optimal an meine bisherigen Erfahrungen an.
+  Sehr geehrter <span class="exchange">{Herr Mustermann}</span>, <br><br> mit Begeisterung habe ich <span class="exchange">{auf Ihrer Firmenwebsite gelesen}</span>, dass Sie <span class="exchange">{auch ein Trainee-Programm anbieten}</span>. Da ich meine berufliche Zukunft in der <span class="exchange">{Biotechnologie-Branche}</span> sehe und <span class="exchange">{Musterfirma}</span> gleichermaßen Wert auf <span class="exchange">{gute Beratung und auf guten Vertrieb}</span> legt, möchte ich künftig Ihre <span class="exchange">{Sales-Abteilung verstärken}</span>.
 </p>
 </div>
    <script>
@@ -118,7 +135,7 @@ Sehr geehrter Herr Mustermann, <br><br> als angehender Softwareentwickler habe i
   <b>Kopieren</b>
 </button>
   <p id='intro_text8' class="panel-body">
-  Sehr geehrter Herr Mustermann, <br><br> nach fünf Jahren im Bereich Personalentwicklung und einer kombinierten Ausbildung in den Natur- und Wirtschaftswissenschaften möchte ich zurück zu meinen beruflichen Wurzeln und in eine Position mit einem stärkeren naturwissenschaftlichen Schwerpunkt wechseln.
+  Sehr geehrter <span class="exchange">{Herr Mustermann}</span>, <br><br> nach <span class="exchange">{fünf}</span> Jahren im Bereich <span class="exchange">{Personalentwicklung und einer kombinierten Ausbildung in den Natur- und Wirtschaftswissenschaften}</span> möchte ich zurück zu meinen beruflichen Wurzeln und in eine Position <span class="exchange">{mit einem stärkeren naturwissenschaftlichen Schwerpunkt}</span> wechseln.
 </p>
 </div>
    <script>
@@ -133,7 +150,7 @@ Sehr geehrter Herr Mustermann, <br><br> als angehender Softwareentwickler habe i
   <b>Kopieren</b>
 </button>
   <p id='intro_text9' class="panel-body">
-  Sehr geehrter Herr Mustermann, <br><br> nach vier Jahren Erfahrung als Sachgebietsleiterin Kundensupport der Musterfirma strebe ich eine berufliche Neuorientierung an, da mein jetziger Arbeitgeber zum Ende dieses Jahres diese Abteilung auflösen wird. Ich habe in meiner jetzigen Stelle bereits Erfahrung in der betriebswirtschaftlichen Führung eines komplexen Pharma-Bereichs erworben und dabei eine hohe Markt- und Kundenorientierung entwickelt. Aus diesem Grund möchte ich mich Ihnen kurz vorstellen.
+  Sehr geehrter <span class="exchange">{Herr Mustermann}</span>, <br><br> nach <span class="exchange">{vier}</span> Jahren Erfahrung als <span class="exchange">{Sachgebietsleiterin Kundensupport}</span> der <span class="exchange">{Musterfirma}</span> strebe ich eine berufliche Neuorientierung an, da <span class="exchange">{mein jetziger Arbeitgeber zum Ende dieses Jahres diese Abteilung auflösen wird}</span>. Ich habe in meiner jetzigen Stelle bereits Erfahrung <span class="exchange">{in der betriebswirtschaftlichen Führung eines komplexen Pharma-Bereichs}</span> erworben und dabei <span class="exchange">{eine hohe Markt- und Kundenorientierung entwickelt}</span>. Aus diesem Grund möchte ich mich Ihnen kurz vorstellen.
 </p>
 </div>
    <script>
@@ -148,7 +165,7 @@ Sehr geehrter Herr Mustermann, <br><br> als angehender Softwareentwickler habe i
   <b>Kopieren</b>
 </button>
   <p id='intro_text10' class="panel-body">
-  Sehr geehrter Herr Mustermann, <br><br> für Ihr Angebot, Ihnen meine Bewerbungsunterlagen zu übersenden, möchte ich mich nochmals bedanken.
+  Sehr geehrter <span class="exchange">{Herr Mustermann}</span>, <br><br> für Ihr Angebot, Ihnen meine Bewerbungsunterlagen zu übersenden, möchte ich mich nochmals bedanken.
 </p>
 </div>
    <script>
@@ -163,7 +180,7 @@ Sehr geehrter Herr Mustermann, <br><br> als angehender Softwareentwickler habe i
   <b>Kopieren</b>
 </button>
   <p id='intro_text11' class="panel-body">
-  Sehr geehrter Herr Mustermann, <br><br> die von Ihnen beschriebene Aufgabe im Bereich Automobil, der mir aus früheren beruflichen Stationen bestens bekannt ist, interessiert mich sehr. Daher möchte ich mich und meinen Erfahrungshintergrund kurz bei Ihnen vorstellen.
+  Sehr geehrter <span class="exchange">{Herr Mustermann}</span>, <br><br> die von Ihnen beschriebene Aufgabe im <span class="exchange">{Bereich Automobil}</span>, der mir aus <span class="exchange">{früheren beruflichen Stationen}</span> bestens bekannt ist, interessiert mich sehr. Daher möchte ich mich und meinen Erfahrungshintergrund kurz bei Ihnen vorstellen.
 </p>
 </div>
    <script>
@@ -178,7 +195,7 @@ Sehr geehrter Herr Mustermann, <br><br> als angehender Softwareentwickler habe i
   <b>Kopieren</b>
 </button>
   <p id='intro_text12' class="panel-body">
-  Sehr geehrter Herr Mustermann, <br><br> nach drei Jahren Berufserfahrung in einem multinationalen Umfeld, bin ich auf der Suche nach einer neuen Herausforderung. Aus diesem Grund entspricht Ihre Stelle des Controllers, in der monatliches Reporting und Vertriebscontrolling kombiniert sind, genau meinen Vorstellungen.
+  Sehr geehrter <span class="exchange">{Herr Mustermann}</span>, <br><br> nach <span class="exchange">{drei}</span> Jahren Berufserfahrung <span class="exchange">{in einem multinationalen Umfeld}</span>, bin ich auf der Suche nach einer neuen Herausforderung. Aus diesem Grund entspricht Ihre <span class="exchange">{Stelle des Controllers}</span>, in der <span class="exchange">{monatliches Reporting und Vertriebscontrolling kombiniert sind}</span>, genau meinen Vorstellungen.
 </p>
 </div>
    <script>
@@ -193,7 +210,7 @@ Sehr geehrter Herr Mustermann, <br><br> als angehender Softwareentwickler habe i
   <b>Kopieren</b>
 </button>
   <p id='intro_text13' class="panel-body">
-  Sehr geehrter Herr Mustermann, <br><br> als erfahrener Abteilungsleiter in einer Agentur für Social-Media Intelligence strebe ich aktiv den Wechsel in die Industrie an. Die von Ihnen skizzierten Aufgaben des Kundenentwicklers sehe ich als einen für mich thematisch sinnvollen Entwicklungsschritt.
+  Sehr geehrter <span class="exchange">{Herr Mustermann}</span>, <br><br> als <span class="exchange">{erfahrener Abteilungsleiter in einer Agentur für Social-Media Intelligence}</span> strebe ich aktiv den Wechsel in <span class="exchange">{die Industrie}</span> an. Die von Ihnen skizzierten Aufgaben <span class="exchange">{des Kundenentwicklers}</span> sehe ich als einen für mich thematisch sinnvollen Entwicklungsschritt.
 </p>
 </div>
    <script>
@@ -212,7 +229,7 @@ Sehr geehrter Herr Mustermann, <br><br> als angehender Softwareentwickler habe i
   <b>Kopieren</b>
 </button>
   <p id='haupt_text1' class="panel-body">
-  Im März habe ich mein Studium der Volkswirtschaftslehre an der Universität zu Köln erfolgreich abgeschlossen. Mit den Besonderheiten der IT-Branche habe ich mich im Rahmen meiner Abschlussarbeit beschäftigt und ein Konzept zur Einführung eines neuen Produkts bei dem IT-Dienstleister Halvit entworfen. Einige meiner Empfehlungen wurden von der Geschäftsführung umgesetzt.
+  Im <span class="exchange">{März}</span> habe ich mein Studium <span class="exchange">{der Volkswirtschaftslehre}</span> an der <span class="exchange">{Universität zu Köln}</span> erfolgreich abgeschlossen. Mit den Besonderheiten <span class="exchange">{der IT-Branche}</span> habe ich mich im Rahmen <span class="exchange">{meiner Abschlussarbeit}</span> beschäftigt und <span class="exchange">{ein Konzept zur Einführung eines neuen Produkts bei dem IT-Dienstleister Halvit entworfen. Einige meiner Empfehlungen wurden von der Geschäftsführung umgesetzt}</span>.
 </p>
 </div>
    <script>
@@ -227,7 +244,7 @@ Sehr geehrter Herr Mustermann, <br><br> als angehender Softwareentwickler habe i
   <b>Kopieren</b>
 </button>
   <p id='haupt_text2' class="panel-body">
-  Die Arbeit im Vertrieb konnte ich durch eine Tätigkeit als Werkstudent bei MakeIT kennen und schätzen lernen: Dort habe ich das Vertriebsteam bei der Konzeptentwicklung unterstützt und bereits erste Akquisitionsgespräche geführt. In einem dreimonatigen Praktikum bei meg consulting in Dublin konnte ich meine Sprachkenntnisse und internationalen Fähigkeiten ausbauen.
+  Die Arbeit <span class="exchange">{im Vertrieb}</span> konnte ich durch eine Tätigkeit als <span class="exchange">{Werkstudent bei MakeIT}</span> kennen und schätzen lernen: Dort habe ich <span class="exchange">{das Vertriebsteam bei der Konzeptentwicklung unterstützt und bereits erste Akquisitionsgespräche geführt}</span>. In <span class="exchange">{einem dreimonatigen Praktikum bei meg consulting in Dublin}</span> konnte ich <span class="exchange">{meine Sprachkenntnisse und internationalen Fähigkeiten ausbauen}</span>.
 </p>
 </div>
    <script>
@@ -242,7 +259,7 @@ Sehr geehrter Herr Mustermann, <br><br> als angehender Softwareentwickler habe i
   <b>Kopieren</b>
 </button>
   <p id='haupt_text3' class="panel-body">
-  Reisebereitschaft, Kommunikationsfähigkeit und Durchsetzungsvermögen sind für mich ebenso selbstverständlich wie die Arbeit im Team. Auch den Einsatz in Ihren internationalen Niederlassungen, der im Trainee vorgesehen ist, empfinde ich als spannende Aufgabe. Hierfür bringe ich sehr gute Fremdsprachenkenntnisse in Englisch und Russisch mit.
+  <span class="exchange">{Reisebereitschaft, Kommunikationsfähigkeit und Durchsetzungsvermögen}</span> sind für mich ebenso selbstverständlich wie <span class="exchange">{die Arbeit im Team}</span>. Auch den Einsatz in <span class="exchange">{Ihren internationalen Niederlassungen}</span>, empfinde ich als spannende Aufgabe. Hierfür bringe ich <span class="exchange">{sehr gute Fremdsprachenkenntnisse in Englisch und Russisch}</span> mit.
 </p>
 </div>
    <script>
@@ -257,7 +274,7 @@ Sehr geehrter Herr Mustermann, <br><br> als angehender Softwareentwickler habe i
   <b>Kopieren</b>
 </button>
   <p id='haupt_text4' class="panel-body">
-  Zurzeit befinde ich mich im fünften Semester des Studiengangs Ingenieurinformatik mit Schwerpunkt Elektrotechnik der Universität Paderborn. Das vierte Semester absolvierte ich in Österreich an der Technischen Universität Wien. Die Teilnahme an verschiedenen Workshops und Seminaren stärkte mein besonderes Interesse an der Informatik.
+  Zurzeit befinde ich mich <span class="exchange">{im fünften}</span> Semester des Studiengangs <span class="exchange">{Ingenieurinformatik}</span> mit Schwerpunkt <span class="exchange">{Elektrotechnik der Universität Paderborn}</span>. Das <span class="exchange">{vierte}</span> Semester absolvierte ich <span class="exchange">{in Österreich an der Technischen Universität Wien}</span>. Die Teilnahme an <span class="exchange">{verschiedenen Workshops und Seminaren stärkte mein besonderes Interesse}</span> an <span class="exchange">{der Informatik}</span>.
 </p>
 </div>
    <script>
@@ -272,7 +289,7 @@ Sehr geehrter Herr Mustermann, <br><br> als angehender Softwareentwickler habe i
   <b>Kopieren</b>
 </button>
   <p id='haupt_text5' class="panel-body">
-  Durch die langjährige Anwendung von Microsoft-Programmen und MALDI-TOF eignete ich mir einen fortgeschrittenen Umgang mit verschiedenen Analyse-Verfahren an. Verhandlungssicheres Englisch, Organisationstalent und Lernbereitschaft sind für mich ebenso selbstverständlich wie die Arbeit im Team.
+  Durch die langjährige Anwendung von <span class="exchange">{Microsoft-Programmen und MALDI-TOF}</span> eignete ich mir einen fortgeschrittenen Umgang mit <span class="exchange">{verschiedenen Analyse-Verfahren}</span> an. <span class="exchange">{Verhandlungssicheres Englisch, Organisationstalent und Lernbereitschaft}</span> sind für mich ebenso selbstverständlich wie die Arbeit im Team.
 </p>
 </div>
    <script>
@@ -287,7 +304,7 @@ Sehr geehrter Herr Mustermann, <br><br> als angehender Softwareentwickler habe i
   <b>Kopieren</b>
 </button>
   <p id='haupt_text6' class="panel-body">
-  Den Schwerpunkt legte ich in meinem Studium auf die Entwicklung von Maschinen und Anlagen. Wegen meines besonderen Interesses an der Automatisierungstechnik schrieb ich meine Diplomarbeit zum Thema „Automatisierung von Regressionstests eines Programms zur Halbleiter-Strukturanalyse“.
+  Den Schwerpunkt legte ich in meinem Studium auf <span class="exchange">{die Entwicklung von Maschinen und Anlagen}</span>. Wegen meines besonderen Interesses an <span class="exchange">{der Automatisierungstechnik}</span> schrieb ich meine Diplomarbeit zum Thema <span class="exchange">{„Automatisierung von Regressionstests eines Programms zur Halbleiter-Strukturanalyse“}</span>.
 </p>
 </div>
    <script>
@@ -302,7 +319,7 @@ Sehr geehrter Herr Mustermann, <br><br> als angehender Softwareentwickler habe i
   <b>Kopieren</b>
 </button>
   <p id='haupt_text7' class="panel-body">
-  Durch meine abgeschlossene Ausbildung zum Mechaniker bin ich mit Ihren Produktgruppen auch in technischer Hinsicht gut vertraut. Weitere Erfahrungen sammelte ich in meinem Praktikum bei P.O.G. Engineering. Hier begleitete ich die Produktion bei der Weiterentwicklung und Einführung von Maschinen. Außerdem unterstützte ich das Team mit der Koordination von werksinternen Projekten. Hierbei konnte ich Durchsetzungsvermögen und Teamfähigkeit unter Beweis stellen.
+  Durch meine abgeschlossene Ausbildung <span class="exchange">{zum Mechaniker}</span> bin ich mit <span class="exchange">{Ihren Produktgruppen auch in technischer Hinsicht}</span> gut vertraut. Weitere Erfahrungen sammelte ich in <span class="exchange">{meinem Praktikum bei P.O.G. Engineering}</span>. Hier begleitete ich <span class="exchange">{die Produktion bei der Weiterentwicklung und Einführung von Maschinen}</span>. Außerdem unterstützte ich das Team <span class="exchange">{mit der Koordination von werksinternen Projekten}</span>. Hierbei konnte ich <span class="exchange">{Durchsetzungsvermögen und Teamfähigkeit}</span> unter Beweis stellen.
 </p>
 </div>
    <script>
@@ -317,7 +334,7 @@ Sehr geehrter Herr Mustermann, <br><br> als angehender Softwareentwickler habe i
   <b>Kopieren</b>
 </button>
   <p id='haupt_text8' class="panel-body">
-  Ich studiere Betriebswirtschaftslehre im fünften Semester mit den Schwerpunkten Controlling und Rechnungswesen. Meine analytischen Fähigkeiten stellte ich bereits im Rahmen eines viermonatigen Praktikums beim Handelsunternehmen D.M.A. unter Beweis. Dort evaluierte ich die Kostenentwicklung im Einkauf und lieferte Vorschläge für die Prozess- und Systemoptimierung. Zudem führte ich Vorgespräche mit alternativen Zulieferern.
+  Ich studiere <span class="exchange">{Betriebswirtschaftslehre}</span> im <span class="exchange">{fünften}</span> Semester mit den Schwerpunkten <span class="exchange">{Controlling und Rechnungswesen}</span>. Meine <span class="exchange">{analytischen Fähigkeiten}</span> stellte ich bereits im Rahmen eines <span class="exchange">{viermonatigen Praktikums beim Handelsunternehmen D.M.A.}</span> unter Beweis. Dort <span class="exchange">{evaluierte ich die Kostenentwicklung im Einkauf und lieferte Vorschläge für die Prozess- und Systemoptimierung}</span>. Zudem <span class="exchange">{führte ich Vorgespräche mit alternativen Zulieferern}</span>.
 </p>
 </div>
    <script>
@@ -332,7 +349,7 @@ Sehr geehrter Herr Mustermann, <br><br> als angehender Softwareentwickler habe i
   <b>Kopieren</b>
 </button>
   <p id='haupt_text9' class="panel-body">
-  Im Rahmen meiner einjährigen Tätigkeit als Werkstudent bei V:A Carrier unterstützte ich das Controlling bei der Kostenplanung und Kalkulation von Produktvarianten und Projekten. Zeitweise konnte ich auch die Urlaubsvertretungen übernehmen.
+  Im Rahmen meiner <span class="exchange">{einjährigen}</span> Tätigkeit als <span class="exchange">{Werkstudent bei V:A Carrier}</span> unterstützte ich <span class="exchange">{das Controlling bei der Kostenplanung und Kalkulation von Produktvarianten und Projekten. Zeitweise konnte ich auch die Urlaubsvertretungen übernehmen.}</span>
 </p>
 </div>
    <script>
@@ -347,7 +364,7 @@ Sehr geehrter Herr Mustermann, <br><br> als angehender Softwareentwickler habe i
   <b>Kopieren</b>
 </button>
   <p id='haupt_text10' class="panel-body">
-  Mein Studium der Betriebswirtschaft an der Universität Frankfurt habe ich im Juli sehr gut abgeschlossen. Organisationsentwicklung stellte den thematischen Schwerpunkt meiner Diplomarbeit dar. Ich entwarf ein Konzept zur Reorganisation des Vertriebs im Handelsunternehmen Deya. Einige meiner Empfehlungen wurden von der Geschäftsführung umgesetzt.
+  Mein Studium der <span class="exchange">{Betriebswirtschaft}</span> an der <span class="exchange">{Universität Frankfurt}</span> habe ich <span class="exchange">{im Juli sehr gut abgeschlossen}</span>. <span class="exchange">{Organisationsentwicklung}</span> stellte den thematischen Schwerpunkt meiner <span class="exchange">{Diplomarbeit}</span> dar. Ich <span class="exchange">{entwarf ein Konzept zur Reorganisation des Vertriebs im Musterunternehmen}</span>.
 </p>
 </div>
    <script>
@@ -362,7 +379,7 @@ Sehr geehrter Herr Mustermann, <br><br> als angehender Softwareentwickler habe i
   <b>Kopieren</b>
 </button>
   <p id='haupt_text11' class="panel-body">
-  Zweiter Schwerpunkt meines Studiums war Personalwirtschaft. Praxiserfahrungen in diesem Bereich habe ich bei FZU Consult gesammelt. Im Rahmen eines viermonatigen Praktikums unterstützte ich das Recruiting-Team bei der Konzeptentwicklung und hospitierte bei Akquisitionsgesprächen, Seminaren und Workshops.
+  Zweiter Schwerpunkt meines Studiums war <span class="exchange">{Personalwirtschaft}</span>. Praxiserfahrungen in diesem Bereich habe ich <span class="exchange">{bei FZU Consult}</span> gesammelt. Im Rahmen eines <span class="exchange">{viermonatigen Praktikums}</span> unterstützte ich das <span class="exchange">{Recruiting}</span>-Team bei der <span class="exchange">{Konzeptentwicklung und hospitierte bei Akquisitionsgesprächen, Seminaren und Workshops}</span>.
 </p>
 </div>
    <script>
@@ -377,7 +394,7 @@ Sehr geehrter Herr Mustermann, <br><br> als angehender Softwareentwickler habe i
   <b>Kopieren</b>
 </button>
   <p id='haupt_text11' class="panel-body">
-  Ich spreche verhandlungssicheres Englisch und Polnisch und habe sehr gute Kenntnisse in MS-Office und SAP R/3. Strukturiertes, kostenbewusstes Denken und Handeln sowie analytische Fähigkeiten bringe ich selbstverständlich mit.
+  Ich spreche <span class="exchange">{verhandlungssicheres Englisch und Polnisch}</span> und habe sehr gute Kenntnisse in <span class="exchange">{MS-Office und SAP R/3}</span>. <span class="exchange">{Strukturiertes, kostenbewusstes Denken und Handeln sowie analytische Fähigkeiten}</span> bringe ich selbstverständlich mit.
 </p>
 </div>
    <script>
@@ -392,11 +409,11 @@ Sehr geehrter Herr Mustermann, <br><br> als angehender Softwareentwickler habe i
   <b>Kopieren</b>
 </button>
   <p id='haupt_text11' class="panel-body">
-  Die Stelle als Produktmanager Mobile Services knüpft optimal an meine bisherigen Erfahrungen an:
+  Die Stelle als <span class="exchange">{Produktmanager Mobile Services}</span> knüpft optimal an meine bisherigen Erfahrungen an:
     <ul>
-      <li> Sie suchen einen Experten für Osteuropa: Ich habe ein halbes Jahr lang vor Ort in Prag die Produkteinführung eines Software-Produkts gesteuert. Ich spreche verhandlungssicheres Tschechisch und habe Grundkenntnisse in Russisch.</li>
-      <li>Mit der Entwicklung von Testumgebungen für neue Anwendungen bin ich bestens vertraut. Anhand von Usability- und A/B Tests konnte ich die Userakzeptanz in den vergangenen zwei Jahren um 40 Prozent steigern.</li>
-      <li>Einer meiner Tätigkeitsschwerpunkte ist die Zusammenarbeit mit dem Marketing-Team in Bezug auf optimale Produktpositionierung.</li>
+      <li> Sie suchen einen <span class="exchange">{Experten für Osteuropa}</span>: <span class="exchange">{Ich habe ein halbes Jahr lang vor Ort in Prag die Produkteinführung eines Software-Produkts gesteuert. Ich spreche verhandlungssicheres Tschechisch und habe Grundkenntnisse in Russisch}</span>.</li>
+      <li><span class="exchange">{Mit der Entwicklung von Testumgebungen für neue Anwendungen}</span> bin ich bestens vertraut. <span class="exchange">{Anhand von Usability- und A/B Tests konnte ich die Userakzeptanz in den vergangenen zwei Jahren um 40 Prozent steigern}</span>.</li>
+      <li>Einer meiner Tätigkeitsschwerpunkte ist <span class="exchange">{die Zusammenarbeit mit dem Marketing-Team in Bezug auf optimale Produktpositionierung}</span>.</li>
     </ul>
 </p>
 </div>
